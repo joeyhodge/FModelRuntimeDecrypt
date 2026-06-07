@@ -43,6 +43,5 @@ jobs:
         with:
           title: "FModel v${{ github.event.inputs.appVersion }}"
           automatic_release_tag: ${{ github.event.inputs.appVersion }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: false
           files: FModel.zip
